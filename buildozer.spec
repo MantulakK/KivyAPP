@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3==3.10.0, hostpython3==3.10.0, kivy==2.3.0, kivymd==1.2.0, pillow==10.2.0, mysql-connector==2.2.9, Cython==3.0.10, appdirs==1.4.4, build==1.2.1, certifi==2024.2.2, charset-normalizer==3.3.2, colorama==0.4.6, distlib==0.3.8, docutils==0.20.1, filelock==3.13.4, idna==3.6, Jinja2==3.1.3, MakeupSafe==2.1.5, packaging==24.0, pexpect==4.9.0, platformdirs==4.2.0, ptyprocess==0.7.0, Pygments==2.17.2, pyproject_hooks==1.0.0, python-for-android==2024.1.21, requests==2.31.0, setuptools==69.5.1, sh==2.0.6, toml==0.10.2, urllib3==2.2.1 
+requirements = python3==3.10.0, hostpython3==3.10.0, kivy==2.3.0, kivymd==1.2.0, pillow==10.2.0, mysql-connector==2.2.9, Cython==3.0.10, appdirs==1.4.4, build==1.2.1, certifi==2024.2.2, charset-normalizer==3.3.2, colorama==0.4.6, distlib==0.3.8, docutils==0.20.1, filelock==3.13.4, idna==3.6, Jinja2==3.1.3, MakeupSafe==2.1.5, packaging==24.0, pexpect==4.9.0, platformdirs==4.2.0, ptyprocess==0.7.0, Pygments==2.17.2, pyproject_hooks==1.0.0, requests==2.31.0, setuptools==69.5.1, sh==2.0.6, toml==0.10.2, urllib3==2.2.1 
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
