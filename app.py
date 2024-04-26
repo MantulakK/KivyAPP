@@ -186,7 +186,7 @@ class MainApp(MDApp):
         self.theme_cls.theme_style = "Dark"
         self.theme_cls.primary_pallete = "BlueGray"
 
-        kv = Builder.load_file('gui/app.kv')
+        kv = Builder.load_file('app.kv')
         
         return kv
     
