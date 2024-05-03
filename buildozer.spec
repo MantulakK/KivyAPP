@@ -37,8 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3==3.10.0, hostpython3==3.10.0, kivy==2.3.0, kivymd==1.2.0, pillow==10.2.0, mysql-connector==2.2.9, Cython==3.0.10, appdirs==1.4.4, build==1.2.1, certifi==2024.2.2, charset-normalizer==3.3.2, colorama==0.4.6, distlib==0.3.8, docutils==0.20.1, filelock==3.13.4, idna==3.6, Jinja2==3.1.3, MakeupSafe==2.1.5, packaging==24.0, pexpect==4.9.0, platformdirs==4.2.0, ptyprocess==0.7.0, Pygments==2.17.2, pyproject_hooks==1.0.0, requests==2.31.0, setuptools==69.5.1, sh==2.0.6, toml==0.10.2, urllib3==2.2.1 
-
+requirements = python3,hostpython3,kivy==2.3.0,kivymd==1.2.0,pillow
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
@@ -101,19 +100,19 @@ fullscreen = 0
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-#android.api = 31
+android.api = 31
 
 # (int) Minimum API your APK / AAB will support.
-#android.minapi = 21
+android.minapi = 30
 
 # (int) Android SDK version to use
-#android.sdk = 20
+android.sdk = 31
 
 # (str) Android NDK version to use
-#android.ndk = 23b
+android.ndk = 23b
 
 # (int) Android NDK API to use. This is the minimum API your app will support, it should usually match android.minapi.
-#android.ndk_api = 21
+android.ndk_api = 30
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
 #android.private_storage = True
